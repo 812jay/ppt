@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<title>Portfolio</title>
+	<!-- 인터넷 익스플로러에서 자바스크립트 관련 차단된 컨텐츠 허용 뜨는것 방지-->
+	<!-- saved from url=(0013)about:internet -->
+
+	<!-- icon -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Heebo|Noto+Sans+KR" rel="stylesheet">
+
+	<!-- user style -->
+	<link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+
+	<header class="header-area navbar-fade" id="header">
+		<nav class="navbar">
+			<a class="navbar-brand" id="navbarBrand">HOME</a>
+			<a class="navbar-toggler" id="toggleBtn"><i class="fa fa-bars"></i></a>
+			<div class="navbar-menu" id="menu">
+				<div class="nav-item"><a class="nav-link" id="navbarAbout">about</a></div>
+				<div class="nav-item"><a class="nav-link" id="navbarService">service</a></div>
+				<div class="nav-item"><a class="nav-link" id="navbarPortfolio">portfolio</a></div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="section-container">
+
+		<section class="about-area" id="about">
+			<div class="title">
+				ABOUT
+			</div>
+			<div class="picture">
+				<img src="img/IMG_4652 yy.jpg">
+				<div class="name">조용제</div>
+				<div class="description">JUNIOR DEVELOPER</div>
+			</div>
+			<div class="text">
+				<div class="intro">
+					안녕하세요. 끊임없는 성장을 추구하는 열정있는 주니어 개발자입니다.<br>
+					28세 전까지 판매, 병동 보조업무 등의 업무를 맡으며 사회경험을 쌓아오며
+					좀 더 자신이 성장할만한 직업을 갈망하던 저에게
+					IT업계에서 일하던 친구의 제안으로 웹개발에 관심을 가지게 되었고
+					자신의 실력을 올릴수록 가치를 인정받는다는 것에 매료되었습니다.<br>
+					그렇게 정부에서 국비지원하는 6개월 과정의 비트캠프 JAVA기반의 웹어플리케이션 과정을 성공적으로 수료 후
+					제이드소프트에서 11개월간 근무였습니다.<br>
+					학원에서는 동물병원 예약시스템에 관한 프로젝트를 진행하며 갤러리,팁게시판을 맡아 진행하였으며
+					그 후 입사한 제이드 소프트에서는
+					교회 수련회 예약사이트, 스크린골프 관리자 사이트와 어플리케이션, 공업기기렌탈 사이트에 관한 프로젝트등을 진행하였습니다.
+				</div>
+				<ul>
+					<li>
+						<div class="info">
+							<i class="far fa-calendar-alt"></i> 1991년 08월 12일
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<i class="fas fa-phone"></i> 010-7774-4524
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<i class="fas fa-envelope"></i> yongje812@gmail.com
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<i class="fas fa-home"></i>서울시 강남구 논현동 193-23(논현로111길 24-5)
+						</div>
+					</li>
+				</ul>
+				<!-- <div class="sns">
+					<a>
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a>
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a>
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+					<a>
+						<i class="fab fa-google-plus-g"></i>
+					</a>
+					<a>
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div> -->
+			</div>
+		</section>
+
+		<section class="services-area" id="service">
+			<div class="title">
+				SKILLS
+			</div>
+			<div class="container">
+
+				<!-- <div class="item">
+					<div class="service">LANGUAGE</div>
+					<div class="content">
+						JAVA, javaScript
+					</div>
+				</div> -->
+
+				<div class="item">
+					<!-- <div class="icon"><span><i class="fab fa-java"></i></span></div> -->
+					<div class="service">WEB SKILLS</div>
+					<div class="content">
+						HTML, CSS, javaScript, jQuery
+					</div>
+				</div>
+
+				<div class="item">
+					<!-- <div class="icon"><span><i class="fas fa-database"></i></span></div> -->
+					<div class="service">DATABASE</div>
+					<div class="content">
+						msSQL, mySQL, oracle, mongoDB
+					</div>
+				</div>
+				<div class="item">
+					<!-- <div class="icon"><span><i class="fas fa-database"></i></span></div> -->
+					<div class="service">ETC</div>
+					<div class="content">
+						gitHub, subversion
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio-area" id="portfolio">
+			<div class="title">
+				PORTFOLIO
+			</div>
+			<div class="filter">
+				<ul class="list">
+					<li class="listItem active" id="all" style="display: none;">
+						All
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="filterItem jade">
+					<div class="image">
+						<div class="overlay"><i class="far fa-image"></i></div>
+						<img src="img/tdg(1).png">
+					</div>
+					<div class="main">
+						The Doors Golf
+					</div>
+					<div class="sub">
+						스크린골프 관리자 웹페이지
+					</div>
+					<div class="text">
+						<a>🗨 msSQL, mongoDB, java, jQuery, spring framework, html, css 등 사용</a><br>
+						<a>🗨 gitHub : https://github.com/812jay/tdg</a>
+					</div>
+				</div>
+				<div class="filterItem jade">
+					<div class="image">
+						<div class="overlay"><i class="far fa-image"></i></div>
+						<img src="img/SChain(1).jpg">
+					</div>
+					<div class="main">
+						SChain
+					</div>
+					<div class="sub">
+						공업용 기기렌탈 서비스 웹사이트
+					</div>
+					<div class="text">
+						<a>🗨 mySQL, java, jQuery, spring framework, html, css 등 사용</a><br>
+						<a>🗨 gitHub : https://github.com/812jay/s_chain</a>
+					</div>
+				</div>
+				<div class="filterItem bitcamp">
+					<div class="image">
+						<div class="overlay"><i class="far fa-image"></i></div>
+						<img src="img/myvet.png">
+					</div>
+					<div class="main">
+						my vet
+					</div>
+					<div class="sub">
+						동물병원 진료/예약 웹사이트
+					</div>
+					<div class="text">
+						<a>🗨 mySQL, java, jQuery, spring framework, html, css, AWS 등 사용</a><br>
+						<a>🗨 gitHub : https://github.com/aaronppa/codin-final</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<footer class="footer-area">
+		<!-- <div class="sns">
+			<div class="item" id="facebook"><i class="fab fa-facebook-square"></i></div>
+			<div class="item" id="twitter"><i class="fab fa-twitter"></i></div>
+			<div class="item" id="linkedin"><i class="fab fa-linkedin"></i></div>
+			<div class="item" id="google"><i class="fab fa-google-plus"></i></div>
+			<div class="item" id="instagram"><i class="fab fa-instagram"></i></div>
+		</div> -->
+		<div class="info">
+			<p>열람해 주셔서 감사합니다!</p>
+		</div>
+	</footer>
+
+	<div id="portfolioModal" class="modal" b>
+		<span class="close" id="modalClose">&times;</span>
+		<div class="container">
+			<img id="modalImage">
+			<div id="modalMain" class="modal-main"></div>
+			<div id="modalSub" class="modal-sub"></div>
+			<div id="modalText" class="modal-text"></div>
+		</div>
+	</div>
+
+	<script src="portfolio.js"></script>
+</body>
+
+</html>
