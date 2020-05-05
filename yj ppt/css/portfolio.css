@@ -293,7 +293,14 @@ section {
   margin: 0 auto;
   background-image: linear-gradient(to right, royalblue, aquamarine);
 }
-
+.sub-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /* ABOUT AREA */
 .about-area {
   height: auto;
